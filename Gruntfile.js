@@ -149,18 +149,10 @@ module.exports = function( grunt ) {
     // our terminal, default task will run with:
     // $ grunt
 
-    var taskDescriptions = {
-        dev: "Task for Dev build purpose where minified versions will not run.",
-        prod: "Task for Prod build purpose where Minify will run.",
-        task_prompt: "Custom Task to show UI Prompt for running other tasks.",
-        default: "Default task will trigger the task_prompt."
-
-    };
-
     // Below is a special task for handling the default prompt command.
     // We take the prompt result and run the corresponding task.
 
-    grunt.registerTask( "task_prompt", taskDescriptions.task_prompt, function() {
+    grunt.registerTask( "task_prompt", "Custom Task to show UI Prompt for running other tasks.", function() {
 
         var tasks = grunt.config("tasks");
         for( task in tasks ) {
