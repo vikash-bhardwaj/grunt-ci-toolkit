@@ -1,2 +1,2 @@
 # grunt-tasks
-Repository to have Standard Grunt Tasks for project.
+Repository to provide Standard Grunt Tasks for a project to support Front-end development.
