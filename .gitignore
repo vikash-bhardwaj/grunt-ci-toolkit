@@ -22,6 +22,9 @@ node_modules
 **/errors
 **/*.min.js
 **/*.min.css
+**/combined.*.js
+**/combined.js
+**/combined.css
 tmp
 
 # MAC Extra files created.

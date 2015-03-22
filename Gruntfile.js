@@ -15,7 +15,7 @@ module.exports = function( grunt ) {
         // Banner allows us to put a nice banner at top of all our
         // files by including it where necessary.
 
-        bannerCopyright: "Copyright <%= grunt.template.today(\"yyyy\") %>, <%= pkg.author %> // All Rights Reserved",
+        bannerCopyright: "Copyright <%= grunt.template.today(\"yyyy\") %>, <%= pkg.author %> // The MIT License (MIT)",
 
         // PROMPT
         // =================================================
@@ -38,12 +38,12 @@ module.exports = function( grunt ) {
                             choices: [ 
                                 "---",
                                 { 
-                                    name: "Validate All js    ── Validate All JS files as configured in Gruntfile",
+                                    name: "Validate All js    ── Validate All JS files as configured in JSHINT options",
                                     checked: false,
                                     value: "validatealljs"
                                 },
                                 { 
-                                    name: "Validate Specific js       ── Validate specific JS files provided by User as text Input",
+                                    name: "Validate Specific js       ── Validate specific JS files provided by User in prompted text Input",
                                     checked: false,
                                     value: "validatejs"
                                 },

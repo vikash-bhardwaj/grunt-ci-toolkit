@@ -105,8 +105,8 @@ module.exports = function( grunt ) {
     // $ grunt validatealljs
 
     var taskDescriptions = {
-        validatealljs: "Validate BBB all JS files for the rules defined in `.jshintrc` file.",
-        validatejs: "Validate the JS files by taking input from developer through textbox, files netered by developer as input will be validate with rules defined in `.jshintrc` file.",
+        validatealljs: "Validate all JS files for the rules defined in `.jshintrc` file.",
+        validatejs: "Prompt to take JS file names in a Textbox and validate those files with rules defined in `.jshintrc` file.",
         validateselectedjs: "Prompt to take JS file names with Checkboxes and then validate selected files with the rules defined in `.jshintrc` file.",
         task_prompt_js: "Custom Task to show UI Prompt for running other tasks."
 

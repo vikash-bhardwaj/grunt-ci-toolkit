@@ -16,14 +16,7 @@ module.exports = function( grunt ) {
         },
         my_target: {
             files: {
-                'js/output.min.js': [
-                    'js/test.js',
-                    'js/test1.js',
-                    'js/test2.js',
-                    'js/test3.js',
-                    'js/test4.js',
-                    'js/test5.js'
-                ]
+                'js/combined.min.js': ['js/combined.js']
             }
         }
     });

@@ -10,6 +10,7 @@ module.exports = function(grunt) {
     	"validatealljs",
     	"concat",
     	"cssmin",
-    	"uglify"
+    	"uglify",
+    	"validation"
     ]);
 };
