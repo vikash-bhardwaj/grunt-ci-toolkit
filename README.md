@@ -1,7 +1,7 @@
 # grunt-tasks
 Repository to provide Standard Grunt Tasks for a project to support Front-end development.
 
-Code Quality being an integral part of any organisation's front-end development process each one of developer must follow a standard automated code quality tool. One of the globally acknowledged tool is Grunt that help controlling code quality by it's task system.
+Code Quality being an integral part of any organisation's front-end development process, each one of developer must follow a standard automated code quality tool. One of the globally acknowledged tool is Grunt that helps controlling code quality by it's task system.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
