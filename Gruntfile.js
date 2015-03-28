@@ -53,6 +53,11 @@ module.exports = function( grunt ) {
                                     value: "validateselectedjs"
                                 },
                                 { 
+                                    name: "Validate specific Lines of js file       ── Validate specific Lines of a JS file provided by User in prompted text Input",
+                                    checked: false,
+                                    value: "validatejslines"
+                                },
+                                { 
                                     name: "W3C Validation       ── Validate specific URLs provided by User for W3C and Generate Report in HTML Format",
                                     checked: false,
                                     value: "validation"
@@ -105,6 +110,7 @@ module.exports = function( grunt ) {
                         ".    ├──┬─ $ grunt validatealljs           \n" +
                         ".    │  └─ $ grunt validatejs              \n" +
                         ".    │  └─ $ grunt validateselectedjs      \n" +
+                        ".    │  └─ $ grunt validatejslines         \n" +
                         ".    │  └─ $ grunt Validation              \n" +
                         ".    │  └─ $ grunt dev                     \n" +
                         ".    │  └─ $ grunt prod                    \n",
