@@ -38,9 +38,9 @@ module.exports = function( grunt ) {
                             choices: [ 
                                 "---",
                                 { 
-                                    name: "Validate All js    ── Validate All JS files as configured in JSHINT options",
+                                    name: "Validate specific Lines of js file       ── Validate specific Lines of a JS file provided by User in prompted text Input",
                                     checked: false,
-                                    value: "validatealljs"
+                                    value: "validatejslines"
                                 },
                                 { 
                                     name: "Validate Specific js       ── Validate specific JS files provided by User in prompted text Input",
@@ -53,9 +53,9 @@ module.exports = function( grunt ) {
                                     value: "validateselectedjs"
                                 },
                                 { 
-                                    name: "Validate specific Lines of js file       ── Validate specific Lines of a JS file provided by User in prompted text Input",
+                                    name: "Validate All js    ── Validate All JS files as configured in JSHINT options",
                                     checked: false,
-                                    value: "validatejslines"
+                                    value: "validatealljs"
                                 },
                                 { 
                                     name: "W3C Validation       ── Validate specific URLs provided by User for W3C and Generate Report in HTML Format",
