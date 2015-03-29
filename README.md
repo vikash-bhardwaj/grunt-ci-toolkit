@@ -106,6 +106,7 @@ Running 'help' task by 'grunt attention' command or by selecting from grunt opti
   ║  .    │  └─ $ grunt Validation                                          ║
   ║  .    │  └─ $ grunt dev                                                 ║
   ║  .    │  └─ $ grunt prod                                                ║
+  ║  .    │  └─ $ grunt attention                                           ║
   ║                                                                         ║
   ╚═════════════════════════════════════════════════════════════════════════╝
 

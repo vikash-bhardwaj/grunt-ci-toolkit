@@ -113,7 +113,8 @@ module.exports = function( grunt ) {
                         ".    │  └─ $ grunt validatealljs           \n" +
                         ".    │  └─ $ grunt Validation              \n" +
                         ".    │  └─ $ grunt dev                     \n" +
-                        ".    │  └─ $ grunt prod                    \n",
+                        ".    │  └─ $ grunt prod                    \n" +
+                        ".    │  └─ $ grunt attention               \n",
 
                     border: "double",
                     borderColor: "cyan"
