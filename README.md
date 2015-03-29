@@ -99,12 +99,14 @@ Running 'help' task by 'grunt attention' command or by selecting from grunt opti
   ║  Please use one of the following tasks:                                 ║
   ║                                                                         ║
   ║  .    .                                                                 ║
-  ║  .    ├──┬─ $ grunt validatealljs                                       ║
+  ║  .    ├──┬─ $ grunt validatejslines                                     ║
   ║  .    │  └─ $ grunt validatejs                                          ║
   ║  .    │  └─ $ grunt validateselectedjs                                  ║
+  ║  .    │  └─ $ grunt validatealljs                                       ║
   ║  .    │  └─ $ grunt Validation                                          ║
   ║  .    │  └─ $ grunt dev                                                 ║
   ║  .    │  └─ $ grunt prod                                                ║
   ║                                                                         ║
   ╚═════════════════════════════════════════════════════════════════════════╝
+
 ```

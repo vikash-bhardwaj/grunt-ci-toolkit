@@ -107,10 +107,10 @@ module.exports = function( grunt ) {
                         " Please use one of the following tasks:\n" +
                         " \n" +
                         ".    .                                     \n" +
-                        ".    ├──┬─ $ grunt validatealljs           \n" +
+                        ".    ├──┬─ $ grunt validatejslines         \n" +
                         ".    │  └─ $ grunt validatejs              \n" +
                         ".    │  └─ $ grunt validateselectedjs      \n" +
-                        ".    │  └─ $ grunt validatejslines         \n" +
+                        ".    │  └─ $ grunt validatealljs           \n" +
                         ".    │  └─ $ grunt Validation              \n" +
                         ".    │  └─ $ grunt dev                     \n" +
                         ".    │  └─ $ grunt prod                    \n",
