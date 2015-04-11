@@ -14,7 +14,7 @@ module.exports = function( grunt ) {
         options: {
             reset: true, //Resets all the validated files status. When want to revalidate all the validated files 
             stoponerror: false, //If this is set to true, validator will stop validating next file
-            remotePath: "http://www.smashingmagazine.com/",
+            remotePath: "http://www.w3schools.com/",
             remoteFiles: "w3c_validation_urls.json", // JSON file contains array of page paths.
             relaxerror: ['& did not start a character reference. (& probably should have been escaped as &amp;.)',
                     'A meta element with an http-equiv attribute whose value is X-UA-Compatible must have a content attribute with the value IE=edge.',
