@@ -62,6 +62,11 @@ module.exports = function( grunt ) {
                                     checked: false,
                                     value: "validation"
                                 },
+                                {
+                                    name:"Performance Metrics  ── Run Grunt for Performance Metrics",
+                                    checked:false,
+                                    value:"performancemetrics"
+                                },
                                 { 
                                     name: "Grunt for dev       ── Run Grunt for Dev tasks",
                                     checked: false,
@@ -112,6 +117,7 @@ module.exports = function( grunt ) {
                         ".    │  └─ $ grunt validateselectedjs      \n" +
                         ".    │  └─ $ grunt validatealljs           \n" +
                         ".    │  └─ $ grunt Validation              \n" +
+                        ".    │  └─ $ grunt performancemetrics      \n" +
                         ".    │  └─ $ grunt dev                     \n" +
                         ".    │  └─ $ grunt prod                    \n" +
                         ".    │  └─ $ grunt attention               \n",
