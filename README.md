@@ -134,7 +134,9 @@ Running 'help' task by `grunt attention` command or by selecting from grunt opti
   ║  .    │  └─ $ grunt validatejs                                          ║
   ║  .    │  └─ $ grunt validateselectedjs                                  ║
   ║  .    │  └─ $ grunt validatealljs                                       ║
-  ║  .    │  └─ $ grunt Validation                                          ║
+  ║  .    │  └─ $ grunt validation                                          ║
+  ║  .    │  └─ $ grunt phantomas                                           ║
+  ║  .    │  └─ $ grunt sitespeedio                                         ║
   ║  .    │  └─ $ grunt dev                                                 ║
   ║  .    │  └─ $ grunt prod                                                ║
   ║  .    │  └─ $ grunt attention                                           ║
