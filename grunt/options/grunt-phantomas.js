@@ -7,9 +7,8 @@ module.exports = function( grunt ) {
     // Performance Analysis of Page
     // =================================================
     // Task to run performance analysis and generate report of all the performance indices of page load for configured URLs.
-
-    grunt.config("performancemetrics", {
-        gruntSite : {
+    grunt.config("phantomas", {
+        performance : {
           options : {
           indexPath : './phantomas/', //Path where the generated HTML report would be created
           options   : {},
