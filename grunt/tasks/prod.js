@@ -12,6 +12,6 @@ module.exports = function(grunt) {
     	"cssmin",
     	"uglify",
     	"validation",
-    	"performancemetrics"
+	"phantomas"
     ]);
 };
