@@ -11,6 +11,7 @@ module.exports = function(grunt) {
     	"concat",
     	"cssmin",
     	"validation",
-	"phantomas"
+	"phantomas",
+	"sitespeedio"
     ]);
 };
