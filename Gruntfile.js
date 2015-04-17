@@ -62,6 +62,16 @@ module.exports = function( grunt ) {
                                     checked: false,
                                     value: "validation"
                                 },
+                                {
+                                    name:"Performance Metrics  ── Run Grunt for Performance Metrics",
+                                    checked:false,
+                                    value:"phantomas"
+                                }, 
+                                {
+                                    name:"SiteSpeed Stats       ── Run Grunt to analyze website speed and performance",
+                                    checked:false,
+                                    value:"sitespeedio"
+                                },
                                 { 
                                     name: "Grunt for dev       ── Run Grunt for Dev tasks",
                                     checked: false,
@@ -112,6 +122,8 @@ module.exports = function( grunt ) {
                         ".    │  └─ $ grunt validateselectedjs      \n" +
                         ".    │  └─ $ grunt validatealljs           \n" +
                         ".    │  └─ $ grunt Validation              \n" +
+                        ".    │  └─ $ grunt phantomas               \n" +
+                        ".    │  └─ $ grunt sitespeedio             \n" +
                         ".    │  └─ $ grunt dev                     \n" +
                         ".    │  └─ $ grunt prod                    \n" +
                         ".    │  └─ $ grunt attention               \n",

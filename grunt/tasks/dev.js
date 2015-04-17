@@ -10,6 +10,8 @@ module.exports = function(grunt) {
     	"validatealljs",
     	"concat",
     	"cssmin",
-    	"validation"
+    	"validation",
+	"phantomas",
+	"sitespeedio"
     ]);
 };
