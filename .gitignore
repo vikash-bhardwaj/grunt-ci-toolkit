@@ -26,6 +26,7 @@ node_modules
 **/combined.js
 **/combined.css
 tmp
+**/js_errors
 
 # MAC Extra files created.
 .DS_Store
