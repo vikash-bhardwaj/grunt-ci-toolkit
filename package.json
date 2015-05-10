@@ -27,7 +27,7 @@
     "grunt-sitespeedio": "^0.3.5",
     "load-grunt-config": "^0.13.1",
     "load-grunt-tasks": "^0.6.0",
-    "grunt-jshint-extended": "^0.0.1"
+    "grunt-jshint-extended": "*"
   },
   "dependencies": {
     "jshint-html-reporter": "^0.1.3"
