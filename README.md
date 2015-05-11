@@ -79,6 +79,7 @@ Running 'validation' task by `grunt validation` command or by selecting from gru
 
 **Note:** For detailed options please refer the original plug-in <a href="https://www.npmjs.com/package/grunt-w3c-html-validation" target="_blank">grunt-w3c-html-validation</a>
 
+<hr/>
 
 ### phantomas
 Run 'phantomas' task by selecting from the grunt options to generate performance analysis report of your web page.
@@ -90,6 +91,7 @@ This task could also be run directly from command prompt using :
 ```
 **Note:** For other standard phantomas options please refer to https://www.npmjs.com/package/grunt-phantomas
 
+<hr/>
 
 ### sitespeedio
 Run 'sitespeedio' task by selecting from the grunt options to generate page load performance analysis report of your web pages.
@@ -101,6 +103,7 @@ This task could also be run directly from command prompt using :
 ```
 **Note:** For other standard sitespeedio options please refer to https://www.npmjs.com/package/grunt-sitespeedio
 
+<hr/>
 
 ### dev
 Running 'dev' task by `grunt dev` command or by selecting from grunt options will run below tasks in defined order:
@@ -109,6 +112,7 @@ Running 'dev' task by `grunt dev` command or by selecting from grunt options wil
     	"cssmin",
     	"validation"
 
+<hr/>
 
 ### prod
 Running 'prod' task by `grunt prod` command or by selecting from grunt options will run below tasks in defined order:
@@ -118,6 +122,7 @@ Running 'prod' task by `grunt prod` command or by selecting from grunt options w
     	"uglify",
     	"validation"
 
+<hr/>
 
 ### help
 Running 'help' task by `grunt attention` command or by selecting from grunt options will show the available grunt commands/tasks on screen for new developers help. This will be similar to:
