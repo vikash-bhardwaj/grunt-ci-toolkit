@@ -69,14 +69,14 @@ Running 'validateselectedjs' task by `grunt validateselectedjs` command or by se
 Running 'validatealljs' task by `grunt validatealljs` command or by selecting option `Validate All js` from above mentioned default 'grunt' task will validate all the JS files with rules mentioned in '.jshintrc' file. This will validate all the JS files configured in JSHINT task option with variable '<b>jsFilesToBeValidated</b>'.
 
 **Important:**
- - For all the above Tasks related to JS Validation(`validatejslines, validatejs, validateselectedjs, validatealljs`) please refer to original Plug-in [grunt-jshint-extended](https://www.npmjs.com/package/grunt-jshint-extended){:target="_blank"}
- - For other standard JSHINT options please refer to [grunt-contrib-jshint](https://github.com/gruntjs/grunt-contrib-jshint){:target="_blank"}
+ - For all the above Tasks related to JS Validation(`validatejslines, validatejs, validateselectedjs, validatealljs`) please refer to original Plug-in <a href="https://www.npmjs.com/package/grunt-jshint-extended" target="_blank">grunt-jshint-extended</a>
+ - For other standard JSHINT options please refer to <a href="https://github.com/gruntjs/grunt-contrib-jshint" target="_blank">grunt-contrib-jshint</a>
 
 
 ### validation
 Running 'validation' task by `grunt validation` command or by selecting from grunt options will validate all the configured URLs for W3C and generate the report.
 
-**Note:** For detailed options please refer the original plug-in [grunt-w3c-html-validation](https://www.npmjs.com/package/grunt-w3c-html-validation)
+**Note:** For detailed options please refer the original plug-in <a href="https://www.npmjs.com/package/grunt-w3c-html-validation" target="_blank">grunt-w3c-html-validation</a>
 
 
 ### phantomas
