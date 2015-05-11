@@ -72,6 +72,7 @@ Running 'validatealljs' task by `grunt validatealljs` command or by selecting op
  - For all the above Tasks related to JS Validation(`validatejslines, validatejs, validateselectedjs, validatealljs`) please refer to original Plug-in <a href="https://www.npmjs.com/package/grunt-jshint-extended" target="_blank">grunt-jshint-extended</a>
  - For other standard JSHINT options please refer to <a href="https://github.com/gruntjs/grunt-contrib-jshint" target="_blank">grunt-contrib-jshint</a>
 
+<hr/>
 
 ### validation
 Running 'validation' task by `grunt validation` command or by selecting from grunt options will validate all the configured URLs for W3C and generate the report.
