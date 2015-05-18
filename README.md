@@ -1,4 +1,4 @@
-# grunt-standard-tasks
+# grunt-ci-toolkit
 Repository to provide Standard Grunt Tasks for a project to support Front-end development.
 
 **Code Quality** being an integral part of any organisation's front-end development process, each one of developer must follow a standard automated code quality tool. Grunt is one of the globally acknowledged tool that helps controlling code quality by it's task system.
