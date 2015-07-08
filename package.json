@@ -2,7 +2,7 @@
   "name": "grunt-standard-tasks",
   "version": "0.0.1",
   "description": "Standard Grunt tasks for any project for Front-end build with Interactive options using grunt Prompt task.",
-  "homepage": "https://github.com/vikash-bhardwaj/grunt-tasks",
+  "homepage": "https://github.com/vikash-bhardwaj/grunt-ci-toolkit",
   "author": "Vikash Bhardwaj <vikasbhardwaj7@gmail.com>",
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
     "grunt-contrib-cssmin": "^0.10.0",
     "grunt-contrib-uglify": "^0.5.1",
     "grunt-prompt": "^1.1.0",
-    "grunt-w3c-html-validation": "~0.0.9",
+    "grunt-w3c-html-validation": "~0.1.1",
     "grunt-phantomas": "^0.12.0",
     "grunt-sitespeedio": "^0.3.5",
     "load-grunt-config": "^0.13.1",
