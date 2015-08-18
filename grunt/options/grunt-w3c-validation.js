@@ -23,8 +23,7 @@ module.exports = function( grunt ) {
             
             generateReport: true,
             errorHTMLRootDir: "w3cErrorFolder",
-            useTimeStamp: false,
-            errorTemplate: "w3c_validation_error_Template.html"
+            useTimeStamp: false
         },
         files: {
             src: ['local_html_test/*.html']
