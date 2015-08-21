@@ -1,12 +1,15 @@
 /**
  * Page Load Performance Analysis Module
+ * 
+ * Read More: https://github.com/sitespeedio/grunt-sitespeedio
  */  
 
 module.exports = function( grunt ) {
 
-    // Site Speed and Performance Analysis of Page
+    // SITESPEEDIO
     // =================================================
     // Task to run Analyze about website speed and performance.
+
     grunt.config("sitespeedio", {
         default: {
           options: {

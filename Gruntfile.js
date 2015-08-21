@@ -72,7 +72,7 @@ module.exports = function( grunt ) {
                                     checked:false,
                                     value:"sitespeedio"
                                 },
-								{
+                                {
                                     name:"PhotoBox Creative QA  ── Prevent your project of broken layout via screenshot photo sessions of your site",
                                     checked:false,
                                     value:"photobox"
@@ -129,7 +129,7 @@ module.exports = function( grunt ) {
                         ".    │  └─ $ grunt Validation              \n" +
                         ".    │  └─ $ grunt phantomas               \n" +
                         ".    │  └─ $ grunt sitespeedio             \n" +
-						".    │  └─ $ grunt photobox             	\n" +
+                        ".    │  └─ $ grunt photobox             	\n" +
                         ".    │  └─ $ grunt dev                     \n" +
                         ".    │  └─ $ grunt prod                    \n" +
                         ".    │  └─ $ grunt attention               \n",

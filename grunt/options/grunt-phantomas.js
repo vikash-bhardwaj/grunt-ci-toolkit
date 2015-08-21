@@ -1,12 +1,15 @@
 /**
- * Page Performance Metrics Module
+ * Page Load Performance Analysis Module
+ * 
+ * Read More: https://github.com/stefanjudis/grunt-phantomas
  */  
 
 module.exports = function( grunt ) {
 
-    // Performance Analysis of Page
+    // PHANTOMAS
     // =================================================
     // Task to run performance analysis and generate report of all the performance indices of page load for configured URLs.
+
     grunt.config("phantomas", {
         performance : {
           options : {
