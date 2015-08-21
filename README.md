@@ -157,7 +157,7 @@ Running 'help' task by `grunt attention` command or by selecting from grunt opti
   ║  .    │  └─ $ grunt validation                                          ║
   ║  .    │  └─ $ grunt phantomas                                           ║
   ║  .    │  └─ $ grunt sitespeedio                                         ║
-  ║  .    │  └─ $ grunt photobox	                                    ║
+  ║  .    │  └─ $ grunt photobox	                                          ║
   ║  .    │  └─ $ grunt dev                                                 ║
   ║  .    │  └─ $ grunt prod                                                ║
   ║  .    │  └─ $ grunt attention                                           ║
