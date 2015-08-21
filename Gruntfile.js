@@ -129,7 +129,7 @@ module.exports = function( grunt ) {
                         ".    │  └─ $ grunt Validation              \n" +
                         ".    │  └─ $ grunt phantomas               \n" +
                         ".    │  └─ $ grunt sitespeedio             \n" +
-                        ".    │  └─ $ grunt photobox             	\n" +
+                        ".    │  └─ $ grunt photobox                \n" +
                         ".    │  └─ $ grunt dev                     \n" +
                         ".    │  └─ $ grunt prod                    \n" +
                         ".    │  └─ $ grunt attention               \n",
