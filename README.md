@@ -34,6 +34,7 @@ Note: Any New Task or Alias should be updated in Gruntfile.js under "PROMPT" tas
  ◯ W3C Validation       ── Validate specific URLs provided by User for W3C and Generate Report in HTML Format
  ◯ Performance Metrices ── Run grunt for Performance metrices
  ◯ SiteSpeed Stats      ── Run grunt to analyze website speed and performance
+ ◯ PhotoBox Creative QA ── Prevent your project of broken layout via screenshot photo sessions of your site
  ◯ Grunt for dev       ── Run Grunt for Dev tasks
  ◯ Grunt for Prod       ── Run Grunt for Prod tasks
  ──────────────
@@ -105,6 +106,17 @@ This task could also be run directly from command prompt using :
 
 <hr/>
 
+### photobox
+Run 'photobox' task by selecting from the grunt options to prevent your project of broken layout via screenshot photo sessions of your site.
+
+This task could also be run directly from command prompt using :
+
+```shell
+	grunt photobox
+```
+**Note:** For other standard sitespeedio options please refer to https://www.npmjs.com/package/grunt-sitespeedio
+
+<hr/>
 ### dev
 Running 'dev' task by `grunt dev` command or by selecting from grunt options will run below tasks in defined order:
 		"validatealljs",
@@ -145,6 +157,7 @@ Running 'help' task by `grunt attention` command or by selecting from grunt opti
   ║  .    │  └─ $ grunt validation                                          ║
   ║  .    │  └─ $ grunt phantomas                                           ║
   ║  .    │  └─ $ grunt sitespeedio                                         ║
+  ║  .    │  └─ $ grunt photobox	                                    ║
   ║  .    │  └─ $ grunt dev                                                 ║
   ║  .    │  └─ $ grunt prod                                                ║
   ║  .    │  └─ $ grunt attention                                           ║

@@ -20,6 +20,9 @@ node_modules
 **/w3cErrorFolder
 **/w3cErrorFolder/**
 **/errors
+**/phantomas
+**/photobox
+**/siteSpeedReport
 **/*.min.js
 **/*.min.css
 **/combined.*.js
