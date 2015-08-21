@@ -114,7 +114,7 @@ This task could also be run directly from command prompt using :
 ```shell
 	grunt photobox
 ```
-**Note:** For other standard sitespeedio options please refer to https://www.npmjs.com/package/grunt-sitespeedio
+**Note:** For other standard Photobox options please refer to https://github.com/stefanjudis/grunt-photobox
 
 <hr/>
 ### dev
