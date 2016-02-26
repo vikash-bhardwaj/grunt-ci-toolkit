@@ -23,9 +23,9 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-prompt": "^1.1.0",
     "grunt-w3c-html-validation": "~0.1.1",
-    "grunt-phantomas": "^0.12.0",
+    "grunt-phantomas": "^0.13.0",
     "grunt-sitespeedio": "^0.3.5",
-    "grunt-photobox": "^0.8.2",
+    "grunt-photobox": "^0.8.4",
     "load-grunt-config": "^0.13.1",
     "load-grunt-tasks": "^0.6.0",
     "grunt-jshint-extended": "*"
