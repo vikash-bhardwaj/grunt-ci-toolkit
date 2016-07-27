@@ -38,58 +38,58 @@ module.exports = function( grunt ) {
                             choices: [ 
                                 "---",
                                 { 
-                                    name: "Validate specific Lines of js file       ── Validate specific Lines of a JS file provided by User in prompted text Input",
+                                    name: "Validate specific lines of JavaScript file",
                                     checked: false,
                                     value: "validatejslines"
                                 },
                                 { 
-                                    name: "Validate Specific js       ── Validate specific JS files provided by User in prompted text Input",
+                                    name: "Validate specific JavaScript",
                                     checked: false,
                                     value: "validatejs"
                                 },
                                 { 
-                                    name: "Validate Selected js       ── Validate specific JS files provided by User from provided list",
+                                    name: "Validate selected JavaScript",
                                     checked: false,
                                     value: "validateselectedjs"
                                 },
                                 { 
-                                    name: "Validate All js    ── Validate All JS files as configured in JSHINT options",
+                                    name: "Validate all JavaScripts",
                                     checked: false,
                                     value: "validatealljs"
                                 },
                                 { 
-                                    name: "W3C Validation       ── Validate specific URLs provided by User for W3C and Generate Report in HTML Format",
+                                    name: "W3C validation",
                                     checked: false,
                                     value: "validation"
                                 },
                                 {
-                                    name:"Performance Metrics  ── Run Grunt for Performance Metrics",
+                                    name:"Performance metrics",
                                     checked:false,
                                     value:"phantomas"
                                 }, 
                                 {
-                                    name:"SiteSpeed Stats       ── Run Grunt to analyze website speed and performance",
+                                    name:"SiteSpeed stats",
                                     checked:false,
                                     value:"sitespeedio"
                                 },
                                 {
-                                    name:"PhotoBox Creative QA  ── Prevent your project of broken layout via screenshot photo sessions of your site",
+                                    name:"PhotoBox creative QA",
                                     checked:false,
                                     value:"photobox"
                                 },
                                 { 
-                                    name: "Grunt for dev       ── Run Grunt for Dev tasks",
+                                    name: "Grunt for development",
                                     checked: false,
                                     value: "dev"
                                 },
                                 { 
-                                    name: "Grunt for Prod       ── Run Grunt for Prod tasks",
+                                    name: "Grunt for production",
                                     checked: false,
                                     value: "prod"
                                 },
                                 "---",
                                 { 
-                                    name: "Help           ── Show the Grunt tasks available",
+                                    name: "Help",
                                     checked: false,
                                     value: "attention"
                                 }
@@ -122,17 +122,17 @@ module.exports = function( grunt ) {
                         " Please use one of the following tasks:\n" +
                         " \n" +
                         ".    .                                     \n" +
-                        ".    ├──┬─ $ grunt validatejslines         \n" +
-                        ".    │  └─ $ grunt validatejs              \n" +
-                        ".    │  └─ $ grunt validateselectedjs      \n" +
-                        ".    │  └─ $ grunt validatealljs           \n" +
-                        ".    │  └─ $ grunt Validation              \n" +
-                        ".    │  └─ $ grunt phantomas               \n" +
-                        ".    │  └─ $ grunt sitespeedio             \n" +
-                        ".    │  └─ $ grunt photobox                \n" +
-                        ".    │  └─ $ grunt dev                     \n" +
-                        ".    │  └─ $ grunt prod                    \n" +
-                        ".    │  └─ $ grunt attention               \n",
+                        ".    ├──┬─ $ grunt validatejslines         // Validate specific lines of a JS file provided by user in prompted text input.\n" +
+                        ".    │  └─ $ grunt validatejs              // Validate specific JS files provided by user as text input.\n" +
+                        ".    │  └─ $ grunt validateselectedjs      // Validate specific JS files provided by user from provided list.\n" +
+                        ".    │  └─ $ grunt validatealljs           // Validate all JS files as configured in Gruntfile.js.\n" +
+                        ".    │  └─ $ grunt Validation              // Validate specific URLs provided by user for W3C and generate report in HTML format.\n" +
+                        ".    │  └─ $ grunt phantomas               // Run grunt for performance metrices.\n" +
+                        ".    │  └─ $ grunt sitespeedio             // Run grunt to analyze website speed and performance.\n" +
+                        ".    │  └─ $ grunt photobox                // Prevent your project of broken layout via screenshot photo sessions of your site.\n" +
+                        ".    │  └─ $ grunt dev                     // Run grunt for `dev` tasks\n" +
+                        ".    │  └─ $ grunt prod                    // Run grunt for `pro` tasks\n" +
+                        ".    │  └─ $ grunt attention               // Open me again :)\n",
 
                     border: "double",
                     borderColor: "cyan"
